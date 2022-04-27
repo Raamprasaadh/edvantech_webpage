@@ -1,0 +1,83 @@
+.colors{
+    /*logo*/
+color: #DE1B1B;
+/*founder card*/
+color: #E9E581;
+/*background*/
+color: #646F6F;
+/*font*/
+color: #F9F3C5;
+color: #87AAB9
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height:10vh;
+    position: sticky 300px;
+}
+.navLogo{
+    height:100%;
+    width:20vw;
+    margin: 0;
+    padding: 10px 0 0 0;
+    background-color: #646F6F;
+}
+.navLinks{
+    height: 100%;
+    width: 80vw;
+    background-color: #646F6F;
+    margin: 0;
+    padding: 10px 0 0 0;
+    
+}
+.symbol{
+    background-color: white;
+    border-radius: 100px;
+    padding: 5px;
+    color:#DE1B1B;
+    font-size: 2em;
+}
+.logoText{
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    height: 100%;
+}
+.logoText:hover{
+    color:white;
+    background-color: #646F6F;
+    text-align: center;
+    font-size: 20px;
+    height: 100%;
+    text-shadow: 2px 2px 10px #E9E581;   
+}
+.navLinks ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.navLinks a{
+    text-decoration: none;
+    color: white;
+}
+.navLinks a:hover{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 10px ;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    color: black;
+    bottom:0;
+    height:5vh;
+}
+footer:hover{
+
+    text-align: center;
+    color: #DE1B1B;
+}
